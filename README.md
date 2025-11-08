@@ -21,7 +21,7 @@ Our team is working to build a plant care planner and guidance system so that pl
 
 ## General Information
 
-<img src="PlanterLogo.jpg" alt="App Logo" width="250" height="250">
+<img src="./images/PlanterLogo.jpg" alt="App Logo" width="250" height="250">
 
 *Optional: what’s missing from your project (expertise, users, additional developers, money☺, etc) that you wish you had.*
 
