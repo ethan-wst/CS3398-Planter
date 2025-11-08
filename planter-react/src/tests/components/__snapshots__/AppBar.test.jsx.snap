@@ -1,0 +1,50 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`AppBar Component > renders correctly 1`] = `
+<DocumentFragment>
+  <header
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation4 MuiAppBar-root MuiAppBar-colorPrimary MuiAppBar-positionFixed mui-fixed css-1wtssb0-MuiPaper-root-MuiAppBar-root"
+    style="--Paper-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);"
+  >
+    <div
+      class="MuiToolbar-root MuiToolbar-gutters MuiToolbar-regular css-1ygil4i-MuiToolbar-root"
+    >
+      <button
+        aria-label="toggle sidebar"
+        class="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit MuiIconButton-edgeStart MuiIconButton-sizeMedium css-1n441g7-MuiButtonBase-root-MuiIconButton-root"
+        id=":r0:"
+        tabindex="0"
+        type="button"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+          data-testid="MenuIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M3 18h18v-2H3zm0-5h18v-2H3zm0-7v2h18V6z"
+          />
+        </svg>
+      </button>
+      <button
+        class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-n1vt8w-MuiButtonBase-root-MuiButton-root"
+        id=":r1:"
+        tabindex="0"
+        type="button"
+      >
+        <img
+          alt="React logo"
+          height="40"
+          src="/BannerTranspoLargeTxt.webp"
+          width="196"
+        />
+      </button>
+      <h6
+        class="MuiTypography-root MuiTypography-h6 css-1i6723l-MuiTypography-root"
+      />
+    </div>
+  </header>
+</DocumentFragment>
+`;

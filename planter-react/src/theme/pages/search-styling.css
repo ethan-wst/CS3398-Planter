@@ -1,0 +1,111 @@
+.main-container {
+    width: 100%;
+}
+
+.content {
+    padding: 15px;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.options-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.options-holder > .individual-option {
+    width: 30%;
+    margin: 10px;
+}
+
+.options-holder > .individual-option > select {
+    width: 100%;
+}
+
+#search-form {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 1px solid grey;
+    border-radius: 100px 0px 0px 100px;
+    margin-right: 0px;
+    padding: 20px;
+}
+
+.search-button {
+    padding: 20px;
+    background: #ddd;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 100px 100px 0px;
+    width: 95px;
+}
+
+.plant-info-container {
+    background-color: #2a2a2a; 
+    color: #f0f0f0;
+    padding: 10px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.plant-info-fields {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.plant-info-fields > p {
+    background-color: #ffb30038;
+    margin-right: 10px;
+}
+
+.plant-details {
+    display: flex;
+    justify-content: left;
+}
+
+.plant-details > p {
+    padding: 10px;
+    padding-left: 25px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-position-x: 2.5px;
+}
+
+.plant-details > p:nth-of-type(2) {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.watering-detail {
+    background-color: #4fb0c6;
+    background-image: url('/public/drop-silhouette-flaticon.png');
+    color: #050505;
+}
+
+.sunlight-detail {
+    background-color: #f9d44f;
+    background-image: url('/public/sun-flaticon.png');
+    color: #000;
+}
+
+.indoors-detail {
+    background-color: #c4a484;
+    background-image: url('/public/open-door-flaticon.png');
+    color: #000;
+}
+
+#search-pagination {
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    color: #f0f0f0;
+    border-radius: 10px;
+}

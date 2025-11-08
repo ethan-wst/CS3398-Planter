@@ -1,0 +1,85 @@
+.auth-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--auth-bg);
+    padding-top: 0rem;
+    overflow: hidden;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.auth-container {
+    background: var(--container-bg);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    padding-top: 1rem; 
+}
+
+.auth-container h2 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.auth-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.auth-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    background-color: var(--input-bg);
+    color: var(--text-color);
+}
+
+.auth-form input:focus {
+    outline: none;
+    border-color: var(--button-bg);
+    box-shadow: 0 0 5px rgba(132, 250, 176, 0.5);
+}
+
+.auth-button {
+    background: var(--button-bg);
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    color: var(--button-text);
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.auth-button:hover {
+    background: var(--button-hover);
+}
+
+.auth-error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 10px;
+}
+
+.toggle-link {
+    color: var(--link-color);
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: underline; 
+}
+
+.toggle-link:hover {
+    text-decoration: underline; 
+}
