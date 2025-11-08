@@ -17,6 +17,8 @@ Our team is working to build a plant care planner and guidance system so that pl
   - [Features](#features)
   - [Planned Features](#planned-features)
   - [Sprint 1 Review](#sprint-1-review)
+  - [Sprint 2 Review](#sprint-2-review)
+  - [Sprint 3 Review](#sprint-3-review)
 <!-- * [License](#license) -->
 
 ## General Information
